@@ -1,10 +1,10 @@
 {
   "title": "Momo",
-  "description": "Parie ton nombre de plis, bluffe tes potes et rafle tout avec un Momo ! 3 à 6 joueurs, bots pour compléter.",
+  "description": "Une lettre interdite, un thème imposé : trouve un mot avant les autres ou ramasse toutes les cartes !",
   "author": "ChadGang",
-  "category": "Cartes",
+  "category": "Ambiance",
   "emoji": "🥟",
-  "joueurs": "1-6",
+  "joueurs": "2-8",
   "image": "cover.png",
   "classement": "victoires"
 }

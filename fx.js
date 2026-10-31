@@ -43,6 +43,8 @@
   }
   const SOUNDS = {
     click() { tone(660, 0.05, 'square', 0.05); },
+    buzz() { tone(880, 0.28, 'sawtooth', 0.14, 0, 330); tone(1320, 0.18, 'square', 0.07, 0.02, 660); },
+    tick() { tone(1200, 0.04, 'square', 0.04); },
     play() { noise(0.07, 0.35, 0, 2200); tone(180, 0.08, 'triangle', 0.12); },
     deal() { for (let i = 0; i < 5; i++) noise(0.05, 0.25, i * 0.07, 3000); },
     bid() { tone(520, 0.09, 'square', 0.06); tone(780, 0.12, 'square', 0.06, 0.08); },
